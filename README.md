@@ -1,3 +1,5 @@
+# Как запустить
+В папке dist - собранный проект
 # GulpAssembly
 npm i
 gulp start

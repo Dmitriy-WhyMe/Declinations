@@ -1,0 +1,19 @@
+- var img = 'img/';
+
+doctype
+html
+	include blocks/head.pug
+		title
+	body
+		include blocks/header.pug
+
+		main.page-container
+				.declinations(class="container")
+					h1 Склонение <span>слов</span>
+					.declinations__data
+						input(type="text" placeholder="Введите слово" id="input_word" value="Дефолт")
+						#select-custom
+						a.btn(href="#" id="out") Просклонять
+					.declinations__result(id="result")
+		include blocks/footer.pug
+		include blocks/scripts.pug
